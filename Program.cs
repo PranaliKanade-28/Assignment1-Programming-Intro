@@ -10,28 +10,34 @@ namespace Assignment1_Spring2020
             int n = 5;
             Console.WriteLine("QUESTION 1: PrintPattern");
             PrintPattern(n);
-
+            //Self-reflection: time taken-40 min, learning- understanding of recursion , recommendations-would be possible to implement in one method if two variable allowed as input
+            
             int n2 = 6;
             Console.WriteLine("QUESTION 2: PrintSeries");
             PrintSeries(n2);
-
+            //Self-reflection: time taken-35 min, learning- understanding of iteration, recommendations- NA
+            
             string s = "09:15:35PM";
             string t = UsfTime(s);
             Console.WriteLine("QUESTION 3: UsfTime");
             Console.WriteLine(t);
-
+            //Self-reflection: time taken-35 min, learning- understanding of string manipulation, recommendations- NA
+            
             int n3 = 110;
             int k = 11;
             Console.WriteLine("QUESTION 4: UsfNumbers");
             UsfNumbers(n3, k);
-
+            //Self-reflection: time taken-30 min, learning- understanding of conditions, recommendations- efficient way to check conditions
+            
             string[] words = new string[] { "abcd", "dcba", "lls", "s", "sssll" };
             Console.WriteLine("QUESTION 5: PalindromePairs");
             PalindromePairs(words);
-
+            //Self-reflection: time taken-45 min, learning- understanding of inbuilt methods like Reverse in array recommendation: same could be implemented using string manipulation 
+            
             int n4 = 5;
             Console.WriteLine("QUESTION 6: Stones");
             Stones(n4);
+            //Self-reflection: time taken-135min, learning- understanding of logical analysis, recommendation- array manipulation could used to get all combination of wins
 
         }
 
